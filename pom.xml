@@ -9,6 +9,8 @@
 	<packaging>pom</packaging>
 	<modules>
 		<module>api</module>
+		<module>impl</module>
+		<module>client</module>
 	</modules>
 	
 	<properties>

@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.adas.osgi.hello.client.Activator
+Bundle-SymbolicName: com.adas.osgi.hello.client
+Bundle-Version: 1.0.0
+Import-Package: org.osgi.framework
+Import-Package: com.adas.osgi.hello.api

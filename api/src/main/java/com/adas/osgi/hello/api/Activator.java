@@ -1,4 +1,4 @@
-package com.adas.osgi.hello;
+package com.adas.osgi.hello.api;
 
 import org.osgi.framework.BundleActivator;
 import org.osgi.framework.BundleContext;

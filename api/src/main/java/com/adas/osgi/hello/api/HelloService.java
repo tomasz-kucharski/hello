@@ -1,4 +1,4 @@
-package com.adas.osgi.hello;
+package com.adas.osgi.hello.api;
 
 /**
  * @author Tomasz Kucharski <kucharski.tom@gmail.com>
