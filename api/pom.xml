@@ -9,4 +9,28 @@
 	</parent>
 	<modelVersion>4.0.0</modelVersion>
 	<artifactId>api</artifactId>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-jar-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<includes>
+						<include>**/com/**</include>
+					</includes>
+					<archive>
+						<addMavenDescriptor>false</addMavenDescriptor>
+						<manifestFile>target/classes/MANIFEST.MF</manifestFile>
+					</archive>
+					<outputDirectory>${env.EQUINOX_BUNDLE_DIR}</outputDirectory>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>
